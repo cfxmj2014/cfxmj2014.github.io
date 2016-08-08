@@ -107,7 +107,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/js/" style="font-size: 10px;">js</a>
+						<a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
 					</div>
 				</section>
 				
@@ -203,9 +203,7 @@
       
         <h2 id="javascript"><a href="#javascript" class="headerlink" title=" javascript "></a><em> javascript </em></h2><p><strong>&#x95ED;&#x5305;&#xFF08;closures)</strong></p>
 <blockquote>
-<p>&#x5F53;&#x67D0;&#x4E2A;&#x51FD;&#x6570;&#x9700;&#x8981;&#x8C03;&#x7528;&#x53E6;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x53D8;&#x91CF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F60;&#x5C31;&#x9700;&#x8981;&#x7528;&#x5230;&#x95ED;&#x5305;&#x3002;&#x6BD4;&#x5982;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x70B9;&#x51FB;&#x6BCF;&#x4E2A;li&#x663E;&#x793A;&#x5176;index&#x3002;&#x962E;&#x5927;&#x795E;&#x8BF4;&#xFF0C;&#x95ED;&#x5305;&#x6700;&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#x5C31;&#x662F;&#xFF1A;&#x5B9A;&#x4E49;&#x5728;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x51FD;&#x6570;&#xFF08;<a href="http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html">&#x6233;&#x8FD9;&#x91CC;</a>&#xFF09;&#x3002;</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// -&gt;3</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++) {</span><br><span class="line">  $li[i].onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(i);</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(i);<span class="comment">// i-&gt;3</span></span><br><span class="line"><span class="comment">// -&gt;1,2,3</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++) {</span><br><span class="line">  $li[i].onclick = (<span class="function"><span class="keyword">function</span>(<span class="params">x</span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{</span><br><span class="line">      <span class="built_in">console</span>.log(x);</span><br><span class="line">    }</span><br><span class="line">  })(i)</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<p>&#x5F53;&#x67D0;&#x4E2A;&#x51FD;&#x6570;&#x9700;&#x8981;&#x8C03;&#x7528;&#x53E6;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x53D8;&#x91CF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F60;&#x5C31;&#x9700;&#x8981;&#x7528;&#x5230;&#x95ED;&#x5305;&#x3002;&#x6BD4;&#x5982;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x70B9;&#x51FB;&#x6BCF;&#x4E2A;li&#x663E;&#x793A;&#x5176;index&#x3002;&#x962E;&#x5927;&#x795E;&#x8BF4;&#xFF0C;&#x95ED;&#x5305;&#x6700;&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#x5C31;&#x662F;&#xFF1A;&#x5B9A;&#x4E49;&#x5728;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x51FD;&#x6570;&#xFF08;<a href="http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html">&#x6233;&#x8FD9;&#x91CC;</a>&#xFF09;&#x3002;<br></p></blockquote>
       
     </div>
     
@@ -274,6 +272,10 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
+	</div>
+
       
 
       
